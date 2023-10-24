@@ -5,7 +5,7 @@
   "private": false,
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc --skipLibCheck "
   },
   "author": "Germán Bonacchi",
   "license": "ISC",
