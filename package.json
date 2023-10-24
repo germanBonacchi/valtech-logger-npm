@@ -2,11 +2,12 @@
   "name": "valtech-logger-npm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": false,
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "author": "",
+  "author": "Germán Bonacchi",
   "license": "ISC",
   "dependencies": {
     "@vtex/api": "^6.45.24",
